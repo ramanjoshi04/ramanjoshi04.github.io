@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raman Joshi | Portfolio</title>
+  <meta name="description" content="Raman Joshi — Full-stack developer & data engineer. Projects, skills, experience, and contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="progress" id="progress"></div>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <span class="dot"></span>
+        <span>Raman Joshi</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <!-- <a href="#experience">Experience</a> -->
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="btn small" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="badge">Actively applying • Summer 2026 Internship / Co-op (May 2026 onward)</p>
+
+        <h1>
+          Full-stack developer & data engineer
+          <span class="grad">building scalable systems</span>
+          and <span class="grad">real-time pipelines</span>.
+        </h1>
+
+        <p class="lead">
+          I’m <strong>Raman Joshi</strong> — a Master of Applied Computing student at the University of Windsor.
+          I’ve built React + Python applications, ETL pipelines, and real-time systems through internships at
+          KPMG and Plutonic Services, with strong foundations in algorithms, system design, and Agile delivery.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="quick">
+          <a class="pill" href="mailto:joshi8k@uwindsor.ca">joshi8k@uwindsor.ca</a>
+          
+          <a class="pill" href="https://www.linkedin.com/in/ramanjoshi04/" target="_blank" rel="noopener">LinkedIn</a>
+          
+          <a class="pill" href="https://github.com/ramanjoshi04" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card profile">
+          <div class="profile-top">
+            <div class="avatar">
+              <img src="assets/profile.jpg" alt="Raman Joshi"
+                   onerror="this.style.display='none'; this.parentElement.classList.add('noimg')" />
+              <div class="avatar-fallback"><span>RJ</span></div>
+            </div>
+
+            <div>
+              <h2>Raman Joshi</h2>
+              <p class="muted">Full-Stack • Data • Real-Time Systems</p>
+              <p class="muted small">Windsor, Ontario • Open to relocate</p>
+              
+            </div>
+          </div>
+
+          <div class="profile-stats">
+            <div class="stat">
+              <div class="stat-num">AWS</div>
+              <div class="stat-label">SAA Certified</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">545</div>
+              <div class="stat-label">TCS CodeVita Rank</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">ETL</div>
+              <div class="stat-label">Kafka + Postgres</div>
+            </div>
+          </div>
+
+          <div class="profile-actions">
+            <a class="btn small" href="#contact">Let’s talk</a>
+            <a class="btn small ghost" href="assets/resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+        </div>
+
+        <div class="card note">
+          <p class="muted">
+            Target roles: Software Developer Intern • Full-Stack Intern • Data / Platform Intern
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>About</h2>
+        <p class="muted">Who I am and what I build.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Summary</h3>
+          <p class="muted">
+            Master of Applied Computing student at the University of Windsor with hands-on experience in
+            full-stack development, data engineering, and real-time systems through internships at
+            KPMG and Plutonic Services.
+          </p>
+          <p class="muted">
+            Proficient in Python, Java, React, and modern frameworks, with experience building ETL pipelines,
+            optimizing performance, and improving CI/CD workflows. Strong foundation in algorithms, system design,
+            and Agile methodologies.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Highlights</h3>
+          <ul class="list">
+            <li>Built and optimized React + Python applications; improved delivery speed and maintainability</li>
+            <li>Developed real-time ETL pipelines using Kafka + PostgreSQL; enabled dashboards and forecasting</li>
+            <li>Implemented REST APIs, testing, and performance optimizations for reliable production releases</li>
+            <li>AWS Certified Solutions Architect – Associate</li>
+          </ul>
+
+          <div class="chips">
+            <span class="chip">React</span>
+            <span class="chip">Java</span>
+            <span class="chip">Python</span>
+            <span class="chip">Kafka</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">Docker</span>
+            <span class="chip">CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+  <div class="container">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p class="muted">Technologies I use across full-stack, data, and cloud projects.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Frontend -->
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="">React</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="">JavaScript</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="">TypeScript</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="">HTML</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="">CSS</div>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-card">
+        <h3>Backend</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="">Node.js</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="">Express</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="">Java</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="">Python</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="">Spring Boot</div>
+        </div>
+      </div>
+
+      <!-- Data / Databases -->
+      <div class="skill-card">
+        <h3>Data & Databases</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="">PostgreSQL</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="">MongoDB</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="">MySQL</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="">Kafka</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="">Docker</div>
+        </div>
+      </div>
+
+      <!-- Cloud / Tools -->
+      <div class="skill-card">
+        <h3>Cloud & Tools</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="">AWS</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="">Git</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="">GitHub</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="">VS Code</div>
+          <div class="skill-pill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="">Postman</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Experience
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p class="muted">Internships and research work.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="card item">
+          <div class="item-head">
+            <h3>KPMG</h3>
+            <span class="muted">Digital Government Advisory Intern • Apr 2024 – Jun 2024</span>
+          </div>
+          <ul class="list">
+            <li>Built and optimized React + Python applications, improving development speed and delivery</li>
+            <li>Refactored core modules to reduce duplication and technical debt</li>
+            <li>Used profiling/debugging to reduce load time and increase stability in production apps</li>
+            <li>Created automated unit + integration tests to improve QA cycles and release reliability</li>
+            <li>Worked in Agile sprints with cross-functional teams; contributed to CI/CD workflow improvements</li>
+          </ul>
+        </div>
+
+        <div class="card item">
+          <div class="item-head">
+            <h3>Plutonic Services Pvt. Ltd.</h3>
+            <span class="muted">Full-Stack Developer Intern • Jan 2024 – Mar 2024</span>
+          </div>
+          <ul class="list">
+            <li>Designed responsive UI features with React, Flutter, and JavaScript to improve usability</li>
+            <li>Built real-time reporting for usage monitoring to reduce downtime incidents</li>
+            <li>Optimized modules and refactoring to cut load times and improve system stability</li>
+            <li>Integrated REST APIs and conducted unit/load testing to support production deployments</li>
+            <li>Proposed coding practices to improve onboarding and reduce rework with QA/UX teams</li>
+          </ul>
+        </div>
+
+        <div class="card item">
+          <div class="item-head">
+            <h3>National Institute of Technology Karnataka (NITK)</h3>
+            <span class="muted">Research Intern • Jul 2022 – Dec 2022</span>
+          </div>
+          <ul class="list">
+            <li>Researched image processing and encryption methods; improved recognition accuracy in MATLAB</li>
+            <li>Developed secure transmission models to strengthen data protection</li>
+            <li>Optimized data transformations to reduce processing time in experimental runs</li>
+            <li>Collaborated on academic publications in AI-driven recognition and secure communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Projects -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">Selected projects from coursework and personal work.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="card project">
+          <div class="project-top">
+            <h3>Retail Demand Forecasting & ETL Automation Pipeline</h3>
+            <span class="tag">Kafka • ETL • Tableau</span>
+          </div>
+          <p class="muted">End-to-end forecasting system with a real-time ETL pipeline and dashboards.</p>
+          <ul class="list">
+            <li>Built real-time ETL with Python, PostgreSQL, Kafka, and Tableau</li>
+            <li>Designed fact/dimension warehouse and automated cleaning/validation/loading</li>
+            <li>Simulated live transaction streams (sales/inventory/supplier updates) via Kafka</li>
+            <li>Built time-series forecasting models (ARIMA/LSTM) for demand prediction</li>
+            <li>Delivered KPI dashboards for live sales insights and forecast results</li>
+          </ul>
+          <div class="project-links">
+            <a class="link" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Credit Crawler — Data Extraction & Comparison System</h3>
+            <span class="tag">Java • Spring Boot • Selenium</span>
+          </div>
+          <p class="muted">Scraper + API + UI for comparing Canadian credit card data.</p>
+          <ul class="list">
+            <li>Java scraper using Selenium + JSoup; nightly run finishes &lt; 30 minutes with high parse success</li>
+            <li>Implemented Boyer–Moore/KMP, Trie, Heap, AVL Tree to improve query experience</li>
+            <li>Spring Boot REST APIs with caching + idempotent endpoints; improved median latency under concurrency</li>
+            <li>JavaScript compare UI (filters + side-by-side comparison)</li>
+            <li>JWT auth, input validation, robots.txt checks, and JUnit tests (80% coverage)</li>
+          </ul>
+          <div class="project-links">
+            <a class="link" href="https://github.com/ramanjoshi04/CreditCrawler.git" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>PapDocAuthX</h3>
+            <span class="tag">Security • Privacy</span>
+          </div>
+          <p class="muted">Privacy-first document authentication without uploading the document itself.</p>
+          <ul class="list">
+            <li>SHA-256 + Merkle-tree integrity verification to detect tampering</li>
+            <li>Full-stack: React frontend + Node/Express secure REST APIs</li>
+            <li>Polyglot persistence: PostgreSQL (users/roles/records) + MongoDB (audit logs/hash storage)</li>
+            <li>JWT authentication + RBAC with protected routes and role-based UI flows</li>
+            <li>Audit logging for traceability and compliance-ready verification records</li>
+          </ul>
+          <div class="project-links">
+            <a class="link" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Fit-Sync App — Gym Management System</h3>
+            <span class="tag">Flutter • Node.js</span>
+          </div>
+          <p class="muted">Multi-gym scheduling platform with secure payments and mobile support.</p>
+          <ul class="list">
+            <li>Built scheduling & booking experience with React and Node.js</li>
+            <li>Integrated payments and mobile support to improve engagement</li>
+            <li>Optimized APIs to reduce average response latency</li>
+          </ul>
+          <div class="project-links">
+            <a class="link" href="https://github.com/ramanjoshi04/Gymmate_App.git" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Education</h2>
+        <p class="muted">Academic background.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="card item">
+          <div class="item-head">
+            <h3>University of Windsor</h3>
+            <span class="muted">Master of Applied Computing • May 2025 – Present</span>
+          </div>
+          <p class="muted small">
+            Final semester requires a 4- or 8-month internship starting May 2026.
+          </p>
+        </div>
+
+        <div class="card item">
+          <div class="item-head">
+            <h3>Punjab Technical University</h3>
+            <span class="muted">B.Tech, Computer Science & Engineering • Jun 2020 – Apr 2024</span>
+          </div>
+          <p class="muted small">GPA: 3.8/4</p>
+        </div>
+
+        <div class="card item">
+          <div class="item-head">
+            <h3>Certifications & Achievements</h3>
+            <span class="muted">Highlights</span>
+          </div>
+          <ul class="list">
+            <li>AWS Certified Solutions Architect – Associate</li>
+            <li>Global Rank 545 — TCS CodeVita Season 13</li>
+            <li>Hackathon: Robotrix 2.0 (NIT Allahabad)</li>
+            <li>ML/AI Quiz (IIT Roorkee)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="muted">Let’s connect.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Send a message</h3>
+          <form id="contactForm" class="form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </label>
+            <button class="btn" type="submit">Open Email Draft</button>
+            <p class="muted small" id="formHint">
+              <!-- form -->
+            </p>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Details</h3>
+          <div class="contact-links">
+            <a class="pill" href="mailto:joshi8k@uwindsor.ca">joshi8k@uwindsor.ca</a>
+            
+            <a class="pill" href="https://www.linkedin.com/in/ramanjoshi04/" target="_blank" rel="noopener">Linkedin</a>
+            <a class="pill" href="https://github.com/ramanjoshi04" target="_blank" rel="noopener">GITHUB</a>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3>Location</h3>
+          <p class="muted">Windsor, Ontario </p>
+
+          <div class="divider"></div>
+
+          <h3>Quick pitch</h3>
+          <p class="muted">
+            Full-stack and data-focused developer with internship experience in React + Python systems, real-time pipelines,
+            and performance optimization — open for Summer 2026 roles.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="muted small">© <span id="year"></span> Raman Joshi</p>
+      <a class="muted small" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
